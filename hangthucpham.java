@@ -14,7 +14,6 @@ public class hangthucpham extends hanghoa{
         System.out.print("Nhap so ngay het han: ");
         EXPD=sc.nextInt();
         EXP = MFG + EXPD;
-        sc.close();
     }
 
     public void output(){

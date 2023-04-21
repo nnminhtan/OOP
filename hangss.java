@@ -9,7 +9,6 @@ public class hangss extends hanghoa{
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhap loai nguyen lieu: ");
         ingredients_list=sc.nextLine();
-        sc.close();
     }
     public void output(){
         super.output();

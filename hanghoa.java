@@ -15,7 +15,6 @@ public class hanghoa {
         NSX=sc.nextLine();
         System.out.print("Nhap gia: ");
         Gia=sc.nextDouble();
-        sc.close();
     }
     protected void output(){
         System.out.print(MaHang + " " + TenHang + " " + NSX + " " + Gia);

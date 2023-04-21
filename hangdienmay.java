@@ -11,9 +11,8 @@ public class hangdienmay extends hanghoa{
         Warranty_time= sc.nextInt();
         System.out.print("Nhap dien ap: ");
         DienAp=sc.nextInt();
-        System.out.print("Nhap cong suat");
+        System.out.print("Nhap cong suat: ");
         CongSuat=sc.nextInt();
-        sc.close();
     }
     public void output(){
         super.output();
