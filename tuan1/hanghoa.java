@@ -17,7 +17,7 @@ public class hanghoa {
         Gia=sc.nextDouble();
     }
     protected void output(){
-        System.out.print(MaHang + " " + TenHang + " " + NSX);
+        System.out.print("Ma Hang: " + MaHang + " Ten Hang: " + TenHang + " NSX: " + NSX);
     }
     protected double Tinh_gia_ban(){
         return Gia;

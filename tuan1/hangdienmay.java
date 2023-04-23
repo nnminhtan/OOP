@@ -16,12 +16,12 @@ public class hangdienmay extends hanghoa{
     }
     public void output(){
         super.output();
-        System.out.print(" " + DienAp + " " + CongSuat + " " + Warranty_time);
+        System.out.print(" Dien ap: " + DienAp + " Cong Suat: " + CongSuat + " TG Bao Hanh: " + Warranty_time);
     }
     public double Tinh_gia_ban(){
         super.Tinh_gia_ban();
         Gia= Gia + (Gia*10/100);
-        System.out.print(" " + Gia);
+        System.out.print(" Gia: " + Gia);
         return Gia;
     }
 }

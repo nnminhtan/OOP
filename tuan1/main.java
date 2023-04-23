@@ -21,6 +21,7 @@ public class main {
         htp.input();
         htp.output();
         htp.Tinh_gia_ban();
+        htp.tinhEXP();
         sc.close();
     }
 }

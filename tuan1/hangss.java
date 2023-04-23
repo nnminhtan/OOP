@@ -12,12 +12,12 @@ public class hangss extends hanghoa{
     }
     public void output(){
         super.output();
-        System.out.print(" " + ingredients_list);
+        System.out.print(" Nguyen Lieu: " + ingredients_list);
     }
     public double Tinh_gia_ban(){
         super.Tinh_gia_ban();
         Gia= Gia + (Gia*5/100);
-        System.out.print(" " + Gia);
+        System.out.print(" Gia: " + Gia);
         return Gia;
     }
 
