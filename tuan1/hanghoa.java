@@ -22,5 +22,4 @@ public class hanghoa {
     protected double Tinh_gia_ban(){
         return Gia;
     }
-
 }
