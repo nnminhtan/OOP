@@ -5,11 +5,8 @@ package TH;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.Iterator;
-import java.util.ListIterator;
 import java.util.Scanner;
 
-import OOP.tuan1.hangdienmay;
 
 
 public class DSHangHoaArraylist extends HangHoa{
