@@ -3,6 +3,7 @@ package OOP.miniproject.game;
 import javax.swing.JFrame;
 
 public class GameFrame extends JFrame{
+	//constructor
     GameFrame(){
 		this.add(new GamePanel());
 		this.setTitle("Snake");
@@ -10,7 +11,6 @@ public class GameFrame extends JFrame{
 		this.setResizable(false);
 		this.pack();
 		this.setVisible(true);
-		this.setLocationRelativeTo(null);
-		
+		this.setLocationRelativeTo(null);//set the window to the middle of the screen
 	}
 }
