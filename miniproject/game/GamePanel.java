@@ -59,14 +59,14 @@ public class GamePanel extends JPanel implements ActionListener{
 	public void draw(Graphics g) {
 		if(running) {
 			//for the grids
-			// for(int i=0;i<SCREEN_HEIGHT/UNIT_SIZE;i++) {
+			// for(int i=0;i<SCREEN_WIDTH/UNIT_SIZE;i++) {
 			// 	g.drawLine(i*UNIT_SIZE, 0, i*UNIT_SIZE, SCREEN_HEIGHT);
 			// 	g.drawLine(0, i*UNIT_SIZE, SCREEN_WIDTH, i*UNIT_SIZE);
 			// }
 
 			//set apple color
 			g.setColor(Color.red);
-			g.fillOval(appleX, appleY, UNIT_SIZE, UNIT_SIZE); //the apple circle 
+			g.fillOval(appleX, appleY, UNIT_SIZE, UNIT_SIZE); //the apple circleness
 			
 			//body for the snek
 			for(int i = 0; i< bodyParts;i++) {
@@ -82,6 +82,7 @@ public class GamePanel extends JPanel implements ActionListener{
 					g.fillRect(x[i], y[i], UNIT_SIZE, UNIT_SIZE);
 				}			
 			}
+			//Score
 			g.setColor(Color.red);
 			g.setFont(new Font("Itim", Font.BOLD, 40));
 			FontMetrics metrics = getFontMetrics(g.getFont());
@@ -173,6 +174,7 @@ public class GamePanel extends JPanel implements ActionListener{
 		g.setFont( new Font("Itim",Font.BOLD, 75));
 		FontMetrics metrics2 = getFontMetrics(g.getFont());
 		g.drawString("Game Over", (SCREEN_WIDTH - metrics2.stringWidth("Game Over"))/2, SCREEN_HEIGHT/2);
+		
 		//restartB which is not working rn
 		// restartB = new JButton();
 		// restartB.setText("Restart");
